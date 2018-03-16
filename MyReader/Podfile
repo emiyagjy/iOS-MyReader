@@ -1,0 +1,15 @@
+platform :ios, '9.0'
+use_frameworks!
+
+xcodeproj 'MyReader.xcodeproj'
+
+def myPods
+ 
+pod 'SnapKit'
+pod 'SVProgressHUD'
+
+end
+
+target 'MyReader' do
+    myPods
+end
