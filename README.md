@@ -4,10 +4,10 @@
 ## 前言
 	
 这个 简易PDF 阅读器， 我参考了网上第三方库 [Reader](https://github.com/vfr/Reader) 并对部分 UI 做了调整。 
-![mypic2]({{site.url}}/img/postsimgs/2018-03-16-pic2.png) 
-![mypic3]({{site.url}}/img/postsimgs/2018-03-16-pic3.png)
-![mypic4]({{site.url}}/img/postsimgs/2018-03-16-pic4.png)
-![mypic5]({{site.url}}/img/postsimgs/2018-03-16-pic5.png)
+![mypic2](http://emiyagjy.github.io/img/postsimgs/2018-03-16-pic2.png) 
+![mypic3](http://emiyagjy.github.io/img/postsimgs/2018-03-16-pic3.png)
+![mypic4](http://emiyagjy.github.io/img/postsimgs/2018-03-16-pic4.png)
+![mypic5](http://emiyagjy.github.io/img/postsimgs/2018-03-16-pic5.png)
  
 
 ---
@@ -22,7 +22,7 @@
  
 #### Reader 源码的分析和理解
 Reader 第三方库 主要架构如下
-![mypic1]({{site.url}}/img/postsimgs/2018-03-16-reader1.png)
+![mypic1](http://emiyagjy.github.io/img/postsimgs/2018-03-16-reader1.png)
 
 **ReaderViewController** 浏览 PDF 每页数据
 
@@ -32,7 +32,7 @@ Reader 第三方库 主要架构如下
 
 **ReaderDocument** 记录 PDF 数据（总页数，路径，书签等）
 
-![mypic1]({{site.url}}/img/postsimgs/2018-03-16-reader2.png)
+![mypic1](http://emiyagjy.github.io/img/postsimgs/2018-03-16-reader2.png)
 
 **ThumbsViewController**  浏览 PDF 缩略图
 
