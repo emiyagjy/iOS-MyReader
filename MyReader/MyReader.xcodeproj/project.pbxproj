@@ -111,6 +111,109 @@
 		ECC6FEA52052ADE80039304E /* PDFWifiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FEA42052ADE80039304E /* PDFWifiViewController.swift */; };
 		ECC6FEAA2053BC9A0039304E /* PDFSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FEA92053BC9A0039304E /* PDFSettingViewController.swift */; };
 		ECD60F1F205A3661009B05D8 /* PDFThumbsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD60F1E205A3661009B05D8 /* PDFThumbsViewController.swift */; };
+		ECDE5B9D205BE836003BA0EB /* PDFThumbsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD60F1E205A3661009B05D8 /* PDFThumbsViewController.swift */; };
+		ECDE5B9E205BE836003BA0EB /* ThumbsMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FE4920523F760039304E /* ThumbsMainToolbar.m */; };
+		ECDE5B9F205BE836003BA0EB /* ReaderMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FE3F20523F760039304E /* ReaderMainToolbar.m */; };
+		ECDE5BA0205BE836003BA0EB /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1FC84720568FED00A813D9 /* GCDWebServerDataRequest.m */; };
+		ECDE5BA1205BE836003BA0EB /* PDFBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C62A620553E6D00A5EAE4 /* PDFBaseViewController.swift */; };
+		ECDE5BA2205BE836003BA0EB /* ReaderThumbRender.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FE2720523F760039304E /* ReaderThumbRender.m */; };
+		ECDE5BA3205BE836003BA0EB /* PDFShelfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E219B2050D5410008F4E6 /* PDFShelfViewController.swift */; };
+		ECDE5BA4205BE836003BA0EB /* ReaderDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FE4020523F760039304E /* ReaderDocument.m */; };
+		ECDE5BA5205BE836003BA0EB /* ReaderDocumentOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FE2C20523F760039304E /* ReaderDocumentOutline.m */; };
+		ECDE5BA6205BE836003BA0EB /* ReaderThumbCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FE2D20523F760039304E /* ReaderThumbCache.m */; };
+		ECDE5BA7205BE836003BA0EB /* UIBarButtonItemFixSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E21CD20512A1E0008F4E6 /* UIBarButtonItemFixSpace.swift */; };
+		ECDE5BA8205BE836003BA0EB /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1FC82E20568FED00A813D9 /* GCDWebServerResponse.m */; };
+		ECDE5BA9205BE836003BA0EB /* ReaderThumbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FE2F20523F760039304E /* ReaderThumbsView.m */; };
+		ECDE5BAA205BE836003BA0EB /* PDFSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FEA92053BC9A0039304E /* PDFSettingViewController.swift */; };
+		ECDE5BAB205BE836003BA0EB /* ReaderThumbFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FE2A20523F760039304E /* ReaderThumbFetch.m */; };
+		ECDE5BAC205BE836003BA0EB /* ReaderContentTile.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FE3720523F760039304E /* ReaderContentTile.m */; };
+		ECDE5BAD205BE836003BA0EB /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E21D320512A1E0008F4E6 /* StringExtension.swift */; };
+		ECDE5BAE205BE836003BA0EB /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1FC83E20568FED00A813D9 /* GCDWebServerDataResponse.m */; };
+		ECDE5BAF205BE836003BA0EB /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E21CE20512A1E0008F4E6 /* UIViewControllerExtension.swift */; };
+		ECDE5BB0205BE836003BA0EB /* PDFNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C62A42055269800A5EAE4 /* PDFNavigationView.swift */; };
+		ECDE5BB1205BE836003BA0EB /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E21E220512A820008F4E6 /* Url.swift */; };
+		ECDE5BB2205BE836003BA0EB /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E21E320512A820008F4E6 /* Color.swift */; };
+		ECDE5BB3205BE836003BA0EB /* ReaderThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FE2B20523F760039304E /* ReaderThumbView.m */; };
+		ECDE5BB4205BE836003BA0EB /* ReaderConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FE4320523F760039304E /* ReaderConstants.m */; };
+		ECDE5BB5205BE836003BA0EB /* ReaderThumbRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FE3120523F760039304E /* ReaderThumbRequest.m */; };
+		ECDE5BB6205BE836003BA0EB /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1FC83B20568FED00A813D9 /* GCDWebServerErrorResponse.m */; };
+		ECDE5BB7205BE836003BA0EB /* JYSandBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FC7E92056870A00A813D9 /* JYSandBox.swift */; };
+		ECDE5BB8205BE836003BA0EB /* ReaderThumbQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FE2620523F760039304E /* ReaderThumbQueue.m */; };
+		ECDE5BB9205BE836003BA0EB /* GCDWebUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1FC84E20568FED00A813D9 /* GCDWebUploader.m */; };
+		ECDE5BBA205BE836003BA0EB /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E21D420512A1E0008F4E6 /* UIImageExtension.swift */; };
+		ECDE5BBB205BE836003BA0EB /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FE3C20523F760039304E /* ReaderViewController.m */; };
+		ECDE5BBC205BE836003BA0EB /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E21FC205131160008F4E6 /* BaseNavigationController.swift */; };
+		ECDE5BBD205BE836003BA0EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E21992050D5410008F4E6 /* AppDelegate.swift */; };
+		ECDE5BBE205BE836003BA0EB /* UIBarButtonItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E21D020512A1E0008F4E6 /* UIBarButtonItemExtension.swift */; };
+		ECDE5BBF205BE836003BA0EB /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1FC83620568FED00A813D9 /* GCDWebServerConnection.m */; };
+		ECDE5BC0205BE836003BA0EB /* UIXToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FE2220523F760039304E /* UIXToolbarView.m */; };
+		ECDE5BC1205BE836003BA0EB /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1FC83520568FED00A813D9 /* GCDWebServer.m */; };
+		ECDE5BC2205BE836003BA0EB /* JYCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FC868205696FE00A813D9 /* JYCustomView.swift */; };
+		ECDE5BC3205BE836003BA0EB /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1FC83420568FED00A813D9 /* GCDWebServerFunctions.m */; };
+		ECDE5BC4205BE836003BA0EB /* AppDelegateRootExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E21CF20512A1E0008F4E6 /* AppDelegateRootExtension.swift */; };
+		ECDE5BC5205BE836003BA0EB /* Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E21DF20512A820008F4E6 /* Configure.swift */; };
+		ECDE5BC6205BE836003BA0EB /* PDFReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FC8762057C0EE00A813D9 /* PDFReaderViewController.swift */; };
+		ECDE5BC7205BE836003BA0EB /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E21CC20512A1E0008F4E6 /* UIColorExtension.swift */; };
+		ECDE5BC8205BE836003BA0EB /* SVProgressView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FC86A20569DFE00A813D9 /* SVProgressView+Extension.swift */; };
+		ECDE5BC9205BE836003BA0EB /* ThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FE4220523F760039304E /* ThumbsViewController.m */; };
+		ECDE5BCA205BE836003BA0EB /* EasyCast.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E21EA20512AC00008F4E6 /* EasyCast.swift */; };
+		ECDE5BCB205BE836003BA0EB /* JYTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FC8742057858600A813D9 /* JYTableViewCell.swift */; };
+		ECDE5BCC205BE836003BA0EB /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E21E120512A820008F4E6 /* Notification.swift */; };
+		ECDE5BCD205BE836003BA0EB /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1FC84620568FED00A813D9 /* GCDWebServerMultiPartFormRequest.m */; };
+		ECDE5BCE205BE836003BA0EB /* SJXCSMIPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1FC84F20568FED00A813D9 /* SJXCSMIPHelper.m */; };
+		ECDE5BCF205BE836003BA0EB /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1FC84520568FED00A813D9 /* GCDWebServerURLEncodedFormRequest.m */; };
+		ECDE5BD0205BE836003BA0EB /* JYReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FE9C205242340039304E /* JYReaderViewController.m */; };
+		ECDE5BD1205BE836003BA0EB /* ReaderMainPagebar.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FE4A20523F760039304E /* ReaderMainPagebar.m */; };
+		ECDE5BD2205BE836003BA0EB /* CGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FE2920523F760039304E /* CGPDFDocument.m */; };
+		ECDE5BD3205BE836003BA0EB /* PDFWifiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FEA42052ADE80039304E /* PDFWifiViewController.swift */; };
+		ECDE5BD4205BE836003BA0EB /* ReaderContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FE3B20523F760039304E /* ReaderContentView.m */; };
+		ECDE5BD5205BE836003BA0EB /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1FC84020568FED00A813D9 /* GCDWebServerStreamedResponse.m */; };
+		ECDE5BD6205BE836003BA0EB /* GCDWebDAVServer.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1FC82920568FED00A813D9 /* GCDWebDAVServer.m */; };
+		ECDE5BD7205BE836003BA0EB /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1FC83120568FED00A813D9 /* GCDWebServerRequest.m */; };
+		ECDE5BD8205BE836003BA0EB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1FC86D205772B900A813D9 /* Reachability.m */; };
+		ECDE5BD9205BE836003BA0EB /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1FC83D20568FED00A813D9 /* GCDWebServerFileResponse.m */; };
+		ECDE5BDA205BE836003BA0EB /* Meansure.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E21E020512A820008F4E6 /* Meansure.swift */; };
+		ECDE5BDB205BE836003BA0EB /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E21D120512A1E0008F4E6 /* UINavigationControllerExtension.swift */; };
+		ECDE5BDC205BE836003BA0EB /* PDFShelfCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1FC87220577F9300A813D9 /* PDFShelfCell.swift */; };
+		ECDE5BDD205BE836003BA0EB /* ReaderContentPage.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6FE3920523F760039304E /* ReaderContentPage.m */; };
+		ECDE5BDE205BE836003BA0EB /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1FC84820568FED00A813D9 /* GCDWebServerFileRequest.m */; };
+		ECDE5BDF205BE836003BA0EB /* DispatchQueueExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9E21D220512A1E0008F4E6 /* DispatchQueueExtension.swift */; };
+		ECDE5BE1205BE836003BA0EB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1FC8632056905A00A813D9 /* libz.tbd */; };
+		ECDE5BE2205BE836003BA0EB /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1FC8612056901400A813D9 /* libxml2.tbd */; };
+		ECDE5BE3205BE836003BA0EB /* Pods_MyReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F801434E4A90DADBB81FB320 /* Pods_MyReader.framework */; };
+		ECDE5BE5205BE836003BA0EB /* Reader-Print.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE4F20523F760039304E /* Reader-Print.png */; };
+		ECDE5BE6205BE836003BA0EB /* Reader-Button-N@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE5020523F760039304E /* Reader-Button-N@2x.png */; };
+		ECDE5BE7205BE836003BA0EB /* Reader-Button-N.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE5620523F760039304E /* Reader-Button-N.png */; };
+		ECDE5BE8205BE836003BA0EB /* Reader-Button-H@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE5720523F760039304E /* Reader-Button-H@2x.png */; };
+		ECDE5BE9205BE836003BA0EB /* Reader-Mark-N@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE6420523F760039304E /* Reader-Mark-N@3x.png */; };
+		ECDE5BEA205BE836003BA0EB /* Reader-Mark-Y.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE6020523F760039304E /* Reader-Mark-Y.png */; };
+		ECDE5BEB205BE836003BA0EB /* AppIcon-076.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE5520523F760039304E /* AppIcon-076.png */; };
+		ECDE5BEC205BE836003BA0EB /* Reader-Mark-Y@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE5220523F760039304E /* Reader-Mark-Y@2x.png */; };
+		ECDE5BED205BE836003BA0EB /* Reader-Email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE4C20523F760039304E /* Reader-Email@2x.png */; };
+		ECDE5BEE205BE836003BA0EB /* Reader-Mark-N.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE6120523F760039304E /* Reader-Mark-N.png */; };
+		ECDE5BEF205BE836003BA0EB /* Reader-Email@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE5120523F760039304E /* Reader-Email@3x.png */; };
+		ECDE5BF0205BE836003BA0EB /* Reader-Button-N@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE4E20523F760039304E /* Reader-Button-N@3x.png */; };
+		ECDE5BF1205BE836003BA0EB /* AppIcon-180.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE6820523F760039304E /* AppIcon-180.png */; };
+		ECDE5BF2205BE836003BA0EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9E21A22050D5410008F4E6 /* LaunchScreen.storyboard */; };
+		ECDE5BF3205BE836003BA0EB /* Reader-Mark-N@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE6620523F760039304E /* Reader-Mark-N@2x.png */; };
+		ECDE5BF4205BE836003BA0EB /* Reader-Print@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE5E20523F760039304E /* Reader-Print@3x.png */; };
+		ECDE5BF5205BE836003BA0EB /* Reader-Button-H@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE5320523F760039304E /* Reader-Button-H@3x.png */; };
+		ECDE5BF6205BE836003BA0EB /* Reader-Export@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE6320523F760039304E /* Reader-Export@3x.png */; };
+		ECDE5BF7205BE836003BA0EB /* Reader-Export@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE6720523F760039304E /* Reader-Export@2x.png */; };
+		ECDE5BF8205BE836003BA0EB /* Reader-Thumbs.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE5A20523F760039304E /* Reader-Thumbs.png */; };
+		ECDE5BF9205BE836003BA0EB /* Reader-Print@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE5920523F760039304E /* Reader-Print@2x.png */; };
+		ECDE5BFA205BE836003BA0EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9E21A02050D5410008F4E6 /* Assets.xcassets */; };
+		ECDE5BFB205BE836003BA0EB /* Reader-Thumbs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE5B20523F760039304E /* Reader-Thumbs@2x.png */; };
+		ECDE5BFC205BE836003BA0EB /* GCDWebUploader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC1FC84C20568FED00A813D9 /* GCDWebUploader.bundle */; };
+		ECDE5BFD205BE836003BA0EB /* Reader-Thumbs@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE5D20523F760039304E /* Reader-Thumbs@3x.png */; };
+		ECDE5BFE205BE836003BA0EB /* Reader-Email.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE5C20523F760039304E /* Reader-Email.png */; };
+		ECDE5BFF205BE836003BA0EB /* AppIcon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE5F20523F760039304E /* AppIcon-120.png */; };
+		ECDE5C00205BE836003BA0EB /* AppIcon-167.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE4D20523F760039304E /* AppIcon-167.png */; };
+		ECDE5C01205BE836003BA0EB /* Reader-Export.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE6520523F760039304E /* Reader-Export.png */; };
+		ECDE5C02205BE836003BA0EB /* Reader-Mark-Y@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE5820523F760039304E /* Reader-Mark-Y@3x.png */; };
+		ECDE5C03205BE836003BA0EB /* Reader-Button-H.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE5420523F760039304E /* Reader-Button-H.png */; };
+		ECDE5C04205BE836003BA0EB /* AppIcon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = ECC6FE6220523F760039304E /* AppIcon-152.png */; };
+		ECDE5C0D205BE8A2003BA0EB /* Info-inhouse.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECDE5C0C205BE8A2003BA0EB /* Info-inhouse.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -283,6 +386,8 @@
 		ECC6FEA42052ADE80039304E /* PDFWifiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFWifiViewController.swift; sourceTree = "<group>"; };
 		ECC6FEA92053BC9A0039304E /* PDFSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFSettingViewController.swift; sourceTree = "<group>"; };
 		ECD60F1E205A3661009B05D8 /* PDFThumbsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFThumbsViewController.swift; sourceTree = "<group>"; };
+		ECDE5C0A205BE836003BA0EB /* MyReader inhouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyReader inhouse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDE5C0C205BE8A2003BA0EB /* Info-inhouse.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-inhouse.plist"; sourceTree = "<group>"; };
 		F801434E4A90DADBB81FB320 /* Pods_MyReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -308,6 +413,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDE5BE0205BE836003BA0EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDE5BE1205BE836003BA0EB /* libz.tbd in Frameworks */,
+				ECDE5BE2205BE836003BA0EB /* libxml2.tbd in Frameworks */,
+				ECDE5BE3205BE836003BA0EB /* Pods_MyReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +603,7 @@
 				EC9E21962050D5410008F4E6 /* MyReader.app */,
 				EC9E21AA2050D5410008F4E6 /* MyReaderTests.xctest */,
 				EC9E21B52050D5410008F4E6 /* MyReaderUITests.xctest */,
+				ECDE5C0A205BE836003BA0EB /* MyReader inhouse.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -498,14 +614,13 @@
 				ECC6FE9A20523FE30039304E /* MyReader-Bridging-Header.h */,
 				EC9E21992050D5410008F4E6 /* AppDelegate.swift */,
 				EC9E21F3205131160008F4E6 /* Classes */,
-				ECC6FE9B205242340039304E /* JYReaderViewController.h */,
-				ECC6FE9C205242340039304E /* JYReaderViewController.m */,
 				EC9E21CB20512A1E0008F4E6 /* Extensions */,
 				EC9E21DE20512A820008F4E6 /* Configs */,
 				EC9E21E920512AC00008F4E6 /* Venders */,
 				EC9E21A02050D5410008F4E6 /* Assets.xcassets */,
 				EC9E21A22050D5410008F4E6 /* LaunchScreen.storyboard */,
 				EC9E21A52050D5410008F4E6 /* Info.plist */,
+				ECDE5C0C205BE8A2003BA0EB /* Info-inhouse.plist */,
 			);
 			path = MyReader;
 			sourceTree = "<group>";
@@ -606,6 +721,8 @@
 		EC9E21FA205131160008F4E6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				ECC6FE9B205242340039304E /* JYReaderViewController.h */,
+				ECC6FE9C205242340039304E /* JYReaderViewController.m */,
 				EC9E21FC205131160008F4E6 /* BaseNavigationController.swift */,
 				EC6C62A620553E6D00A5EAE4 /* PDFBaseViewController.swift */,
 			);
@@ -796,6 +913,26 @@
 			productReference = EC9E21B52050D5410008F4E6 /* MyReaderUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		ECDE5B9A205BE836003BA0EB /* MyReader inhouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDE5C07205BE836003BA0EB /* Build configuration list for PBXNativeTarget "MyReader inhouse" */;
+			buildPhases = (
+				ECDE5B9B205BE836003BA0EB /* 📦 Check Pods Manifest.lock */,
+				ECDE5B9C205BE836003BA0EB /* Sources */,
+				ECDE5BE0205BE836003BA0EB /* Frameworks */,
+				ECDE5BE4205BE836003BA0EB /* Resources */,
+				ECDE5C05205BE836003BA0EB /* 📦 Embed Pods Frameworks */,
+				ECDE5C06205BE836003BA0EB /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyReader inhouse";
+			productName = MyReader;
+			productReference = ECDE5C0A205BE836003BA0EB /* MyReader inhouse.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -820,6 +957,9 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = EC9E21952050D5410008F4E6;
 					};
+					ECDE5B9A205BE836003BA0EB = {
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = EC9E21912050D5410008F4E6 /* Build configuration list for PBXProject "MyReader" */;
@@ -836,6 +976,7 @@
 			projectRoot = "";
 			targets = (
 				EC9E21952050D5410008F4E6 /* MyReader */,
+				ECDE5B9A205BE836003BA0EB /* MyReader inhouse */,
 				EC9E21A92050D5410008F4E6 /* MyReaderTests */,
 				EC9E21B42050D5410008F4E6 /* MyReaderUITests */,
 			);
@@ -870,6 +1011,7 @@
 				ECC6FE8A20523F760039304E /* Reader-Print@2x.png in Resources */,
 				EC9E21A12050D5410008F4E6 /* Assets.xcassets in Resources */,
 				ECC6FE8C20523F760039304E /* Reader-Thumbs@2x.png in Resources */,
+				ECDE5C0D205BE8A2003BA0EB /* Info-inhouse.plist in Resources */,
 				EC1FC85E20568FED00A813D9 /* GCDWebUploader.bundle in Resources */,
 				ECC6FE8E20523F760039304E /* Reader-Thumbs@3x.png in Resources */,
 				ECC6FE8D20523F760039304E /* Reader-Email.png in Resources */,
@@ -893,6 +1035,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDE5BE4205BE836003BA0EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDE5BE5205BE836003BA0EB /* Reader-Print.png in Resources */,
+				ECDE5BE6205BE836003BA0EB /* Reader-Button-N@2x.png in Resources */,
+				ECDE5BE7205BE836003BA0EB /* Reader-Button-N.png in Resources */,
+				ECDE5BE8205BE836003BA0EB /* Reader-Button-H@2x.png in Resources */,
+				ECDE5BE9205BE836003BA0EB /* Reader-Mark-N@3x.png in Resources */,
+				ECDE5BEA205BE836003BA0EB /* Reader-Mark-Y.png in Resources */,
+				ECDE5BEB205BE836003BA0EB /* AppIcon-076.png in Resources */,
+				ECDE5BEC205BE836003BA0EB /* Reader-Mark-Y@2x.png in Resources */,
+				ECDE5BED205BE836003BA0EB /* Reader-Email@2x.png in Resources */,
+				ECDE5BEE205BE836003BA0EB /* Reader-Mark-N.png in Resources */,
+				ECDE5BEF205BE836003BA0EB /* Reader-Email@3x.png in Resources */,
+				ECDE5BF0205BE836003BA0EB /* Reader-Button-N@3x.png in Resources */,
+				ECDE5BF1205BE836003BA0EB /* AppIcon-180.png in Resources */,
+				ECDE5BF2205BE836003BA0EB /* LaunchScreen.storyboard in Resources */,
+				ECDE5BF3205BE836003BA0EB /* Reader-Mark-N@2x.png in Resources */,
+				ECDE5BF4205BE836003BA0EB /* Reader-Print@3x.png in Resources */,
+				ECDE5BF5205BE836003BA0EB /* Reader-Button-H@3x.png in Resources */,
+				ECDE5BF6205BE836003BA0EB /* Reader-Export@3x.png in Resources */,
+				ECDE5BF7205BE836003BA0EB /* Reader-Export@2x.png in Resources */,
+				ECDE5BF8205BE836003BA0EB /* Reader-Thumbs.png in Resources */,
+				ECDE5BF9205BE836003BA0EB /* Reader-Print@2x.png in Resources */,
+				ECDE5BFA205BE836003BA0EB /* Assets.xcassets in Resources */,
+				ECDE5BFB205BE836003BA0EB /* Reader-Thumbs@2x.png in Resources */,
+				ECDE5BFC205BE836003BA0EB /* GCDWebUploader.bundle in Resources */,
+				ECDE5BFD205BE836003BA0EB /* Reader-Thumbs@3x.png in Resources */,
+				ECDE5BFE205BE836003BA0EB /* Reader-Email.png in Resources */,
+				ECDE5BFF205BE836003BA0EB /* AppIcon-120.png in Resources */,
+				ECDE5C00205BE836003BA0EB /* AppIcon-167.png in Resources */,
+				ECDE5C01205BE836003BA0EB /* Reader-Export.png in Resources */,
+				ECDE5C02205BE836003BA0EB /* Reader-Mark-Y@3x.png in Resources */,
+				ECDE5C03205BE836003BA0EB /* Reader-Button-H.png in Resources */,
+				ECDE5C04205BE836003BA0EB /* AppIcon-152.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -942,6 +1123,51 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ECDE5B9B205BE836003BA0EB /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ECDE5C05205BE836003BA0EB /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyReader/Pods-MyReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECDE5C06205BE836003BA0EB /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyReader/Pods-MyReader-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1034,6 +1260,80 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC9E21BA2050D5420008F4E6 /* MyReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDE5B9C205BE836003BA0EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDE5B9D205BE836003BA0EB /* PDFThumbsViewController.swift in Sources */,
+				ECDE5B9E205BE836003BA0EB /* ThumbsMainToolbar.m in Sources */,
+				ECDE5B9F205BE836003BA0EB /* ReaderMainToolbar.m in Sources */,
+				ECDE5BA0205BE836003BA0EB /* GCDWebServerDataRequest.m in Sources */,
+				ECDE5BA1205BE836003BA0EB /* PDFBaseViewController.swift in Sources */,
+				ECDE5BA2205BE836003BA0EB /* ReaderThumbRender.m in Sources */,
+				ECDE5BA3205BE836003BA0EB /* PDFShelfViewController.swift in Sources */,
+				ECDE5BA4205BE836003BA0EB /* ReaderDocument.m in Sources */,
+				ECDE5BA5205BE836003BA0EB /* ReaderDocumentOutline.m in Sources */,
+				ECDE5BA6205BE836003BA0EB /* ReaderThumbCache.m in Sources */,
+				ECDE5BA7205BE836003BA0EB /* UIBarButtonItemFixSpace.swift in Sources */,
+				ECDE5BA8205BE836003BA0EB /* GCDWebServerResponse.m in Sources */,
+				ECDE5BA9205BE836003BA0EB /* ReaderThumbsView.m in Sources */,
+				ECDE5BAA205BE836003BA0EB /* PDFSettingViewController.swift in Sources */,
+				ECDE5BAB205BE836003BA0EB /* ReaderThumbFetch.m in Sources */,
+				ECDE5BAC205BE836003BA0EB /* ReaderContentTile.m in Sources */,
+				ECDE5BAD205BE836003BA0EB /* StringExtension.swift in Sources */,
+				ECDE5BAE205BE836003BA0EB /* GCDWebServerDataResponse.m in Sources */,
+				ECDE5BAF205BE836003BA0EB /* UIViewControllerExtension.swift in Sources */,
+				ECDE5BB0205BE836003BA0EB /* PDFNavigationView.swift in Sources */,
+				ECDE5BB1205BE836003BA0EB /* Url.swift in Sources */,
+				ECDE5BB2205BE836003BA0EB /* Color.swift in Sources */,
+				ECDE5BB3205BE836003BA0EB /* ReaderThumbView.m in Sources */,
+				ECDE5BB4205BE836003BA0EB /* ReaderConstants.m in Sources */,
+				ECDE5BB5205BE836003BA0EB /* ReaderThumbRequest.m in Sources */,
+				ECDE5BB6205BE836003BA0EB /* GCDWebServerErrorResponse.m in Sources */,
+				ECDE5BB7205BE836003BA0EB /* JYSandBox.swift in Sources */,
+				ECDE5BB8205BE836003BA0EB /* ReaderThumbQueue.m in Sources */,
+				ECDE5BB9205BE836003BA0EB /* GCDWebUploader.m in Sources */,
+				ECDE5BBA205BE836003BA0EB /* UIImageExtension.swift in Sources */,
+				ECDE5BBB205BE836003BA0EB /* ReaderViewController.m in Sources */,
+				ECDE5BBC205BE836003BA0EB /* BaseNavigationController.swift in Sources */,
+				ECDE5BBD205BE836003BA0EB /* AppDelegate.swift in Sources */,
+				ECDE5BBE205BE836003BA0EB /* UIBarButtonItemExtension.swift in Sources */,
+				ECDE5BBF205BE836003BA0EB /* GCDWebServerConnection.m in Sources */,
+				ECDE5BC0205BE836003BA0EB /* UIXToolbarView.m in Sources */,
+				ECDE5BC1205BE836003BA0EB /* GCDWebServer.m in Sources */,
+				ECDE5BC2205BE836003BA0EB /* JYCustomView.swift in Sources */,
+				ECDE5BC3205BE836003BA0EB /* GCDWebServerFunctions.m in Sources */,
+				ECDE5BC4205BE836003BA0EB /* AppDelegateRootExtension.swift in Sources */,
+				ECDE5BC5205BE836003BA0EB /* Configure.swift in Sources */,
+				ECDE5BC6205BE836003BA0EB /* PDFReaderViewController.swift in Sources */,
+				ECDE5BC7205BE836003BA0EB /* UIColorExtension.swift in Sources */,
+				ECDE5BC8205BE836003BA0EB /* SVProgressView+Extension.swift in Sources */,
+				ECDE5BC9205BE836003BA0EB /* ThumbsViewController.m in Sources */,
+				ECDE5BCA205BE836003BA0EB /* EasyCast.swift in Sources */,
+				ECDE5BCB205BE836003BA0EB /* JYTableViewCell.swift in Sources */,
+				ECDE5BCC205BE836003BA0EB /* Notification.swift in Sources */,
+				ECDE5BCD205BE836003BA0EB /* GCDWebServerMultiPartFormRequest.m in Sources */,
+				ECDE5BCE205BE836003BA0EB /* SJXCSMIPHelper.m in Sources */,
+				ECDE5BCF205BE836003BA0EB /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+				ECDE5BD0205BE836003BA0EB /* JYReaderViewController.m in Sources */,
+				ECDE5BD1205BE836003BA0EB /* ReaderMainPagebar.m in Sources */,
+				ECDE5BD2205BE836003BA0EB /* CGPDFDocument.m in Sources */,
+				ECDE5BD3205BE836003BA0EB /* PDFWifiViewController.swift in Sources */,
+				ECDE5BD4205BE836003BA0EB /* ReaderContentView.m in Sources */,
+				ECDE5BD5205BE836003BA0EB /* GCDWebServerStreamedResponse.m in Sources */,
+				ECDE5BD6205BE836003BA0EB /* GCDWebDAVServer.m in Sources */,
+				ECDE5BD7205BE836003BA0EB /* GCDWebServerRequest.m in Sources */,
+				ECDE5BD8205BE836003BA0EB /* Reachability.m in Sources */,
+				ECDE5BD9205BE836003BA0EB /* GCDWebServerFileResponse.m in Sources */,
+				ECDE5BDA205BE836003BA0EB /* Meansure.swift in Sources */,
+				ECDE5BDB205BE836003BA0EB /* UINavigationControllerExtension.swift in Sources */,
+				ECDE5BDC205BE836003BA0EB /* PDFShelfCell.swift in Sources */,
+				ECDE5BDD205BE836003BA0EB /* ReaderContentPage.m in Sources */,
+				ECDE5BDE205BE836003BA0EB /* GCDWebServerFileRequest.m in Sources */,
+				ECDE5BDF205BE836003BA0EB /* DispatchQueueExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1275,6 +1575,46 @@
 			};
 			name = Release;
 		};
+		ECDE5C08205BE836003BA0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19EE2C70928D7DD51F0C23E4 /* Pods-MyReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 47GFBKV8R7;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = "$(SRCROOT)/MyReader/Info-inhouse.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gujiayuan.MyReaderHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECDE5C09205BE836003BA0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 960C901AAA110A0A63936DFC /* Pods-MyReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 47GFBKV8R7;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = "$(SRCROOT)/MyReader/Info-inhouse.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gujiayuan.MyReaderHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1310,6 +1650,15 @@
 			buildConfigurations = (
 				EC9E21C52050D5420008F4E6 /* Debug */,
 				EC9E21C62050D5420008F4E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECDE5C07205BE836003BA0EB /* Build configuration list for PBXNativeTarget "MyReader inhouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDE5C08205BE836003BA0EB /* Debug */,
+				ECDE5C09205BE836003BA0EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

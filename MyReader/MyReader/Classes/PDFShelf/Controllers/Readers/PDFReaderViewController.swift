@@ -587,8 +587,8 @@ class PDFReaderViewController: PDFBaseViewController {
     }
     
     @objc func settingAction(_ sender:UIBarButtonItem) {
-//        self.popupSettingiewController()
-        self.displayMode = .Horizontal
+        self.popupSettingiewController()
+//        self.displayMode = .Horizontal
     }
     
 }
